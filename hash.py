@@ -106,3 +106,11 @@ if __name__ == "__main__":
 
     print(f"Final element count: {hash_container.get_element_count()}")
     print(f"Final bucket count: {hash_container.get_bucket_count()}")
+
+#output
+Value for key 5: 50
+Value for key 15: 150
+Value for key 25: 250
+Value for key 15 after removal: None
+Final element count: 102
+Final bucket count: 128
